@@ -1,19 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>web developer portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/portfolio.css">
 </head>
-<body>
-    <header>
+
+<body class="open-sans-normal ">
+    <header class="header secondary-bg">
+        <nav>
+            <h3 class="nav-title">Upo<span class="text-primary">m</span>a</h3>
+            <ul>
+                <li><a class="dark-2" href="">portfolio</a></li>
+                <li><a class="dark-2" href="">Blogs</a></li>
+                <li><a href=""><button class="btn-primary">Hire Me</button></a></li>
+
+            </ul>
+        </nav>
+        <div class="banner">
+            <div class="banner-content">
+                <h4 class=" banner-greetings dark-2">Hi, I am</h4>
+                <h1 class="banner-title">Radia Afroz Upoma</h1>
+                <p class="banner-description">
+                    a CSE student passionate about full-stack development.
+                    Currently learning MERN stack and building real-world projects.
+                    I love solving problems and creating user-friendly web apps
+                </p>
+                <button class="btn-primary">Download CV</button>
+                <button class="btn-primary">Contact</button>
+            </div>
+            <img class="banner-profile-pic" src="images/upoma.jpg" alt="">
+
+        </div>
 
     </header>
     <main>
+        <section class="about secondary-bg">
+            <h3 class="section-title">About Me</h3>
+            <p class="section-description">
+                A tech enthusiast and CSE undergrad with a creative mind and curious heart. I enjoy learning, building,
+                and growing in the fields of AI, full-stack development, and digital innovation.
+            </p>
+            <div class="about-items">
+                <!--.about-item*4>p.item-title+item-description-->
 
+                <div class="about-item">
+                    <p class="item-title">name</p>
+                    <p class="item-description">Radia Afroz Upoma</p>
+                </div>
+                <div class="about-item">
+                    <p class="item-title">Email</p>
+                    <p class="item-description">radiaafrozupoma@gamil.com</p>
+                </div>
+                <div class="about-item">
+                    <p class="item-title">Date of birth</p>
+                    <p class="item-description">oct 28,2004</p>
+                </div>
+                <div class="about-item">
+                    <p class="item-title">From</p>
+                    <p class="item-description">Dhaka,Cantonment</p>
+                </div>
+
+            </div>
+        </section>
+        <!--what is do seaction start-->
+        <seaction class="skills">
+
+            <h3 class="section-title text-center">What I Do</h3>
+            <p class="section-description text-center">
+                I specialize in creating responsive websites, user-friendly interfaces, and efficient backend systems.
+                With skills in HTML, CSS, JavaScript, and modern tools, I deliver clean, optimized, and functional web
+                solutions tailored to client needs.
+            <div class="skills-container">
+                <!--.skill*4>img+ h4.skill-title+p.skill-description-->
+
+                <div class="skill">
+                    <img src="images/icons/mongo.png" alt="">
+                    <h4 class="skill-title">MongoDB</h4>
+                    <p class="skill-description">Proficient in MongoDB for building scalable databases and performing
+                        CRUD operations in full-stack applications.</p>
+                </div>
+                <div class="skill">
+                    <img src="images/icons/js.png" alt="">
+                    <h4 class="skill-title">JavaScript</h4>
+                    <p class="skill-description">Proficient in JavaScript with experience in building dynamic UI, DOM
+                        manipulation, and implementing logic-based features.
+
+                    </p>
+                </div>
+                <div class="skill">
+                    <img src="images/icons/react.png" alt="">
+                    <h4 class="skill-title">React</h4>
+                    <p class="skill-description">Proficient in React.js with hands-on experience in creating reusable
+                        components, handling state, and building modern, dynamic web interfaces.</p>
+                </div>
+                <div class="skill">
+                    <img src="images/icons/nodejs.png" alt="">
+                    <h4 class="skill-title">NodeJs</h4>
+                    <p class="skill-description">Experienced in Node.js for building efficient backend services, APIs,
+                        and handling real-time data processing.</p>
+                </div>
+
+            </div>
+            </p>
+        </seaction>
+        <section class="resume">
+            <h3 class="section-title">A Summary Of My Resume</h3>
+            <div class="resume-container">
+                <!--.resume-column*2>h3. resume-column-title+.experience*3>h4.exprience-title+h5.exprience-sub-title+.exprience-discription-->
+                <resume-column-title>My Education</resume-column-title>
+                <div class="experience">
+                    <h4 class="exprience-title">Bsc in Computer Science Engineering</h4>
+                    <h5 class="exprience-sub-title">Daffodil International University</h5>
+                    <div class="exprience-discription">Currently pursuing a Bachelor of Science in Computer Science and
+                        Engineering (CSE) at Daffodil International University.
+                        Focused on learning modern technologies, problem-solving, and building real-world projects to
+                        grow as a future full-stack developer.
+
+                    </div>
+                </div>
+                <hr>
+                <div class="experience">
+                    <h4 class="exprience-title">My Education</h4>
+                    <h5 class="exprience-sub-title">Bsc in Computer Science Engineering</h5>
+                    <div class="exprience-discription">Currently pursuing a Bachelor of Science in Computer Science and
+                        Engineering (CSE) at Daffodil International University.
+                        Focused on learning modern technologies, problem-solving, and building real-world projects to
+                        grow as a future full-stack developer.
+
+                    </div>
+                </div>
+                <hr>
+
+                <div class="experience">
+                    <h4 class="exprience-title">My Education</h4>
+                    <h5 class="exprience-sub-title">Bsc in Computer Science Engineering</h5>
+                    <div class="exprience-discription">Currently pursuing a Bachelor of Science in Computer Science and
+                        Engineering (CSE) at Daffodil International University.
+                        Focused on learning modern technologies, problem-solving, and building real-world projects to
+                        grow as a future full-stack developer.
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+            </div>
+        </section>
     </main>
     <footer>
-        
+
     </footer>
 </body>
+
 </html>
